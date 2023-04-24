@@ -2,6 +2,8 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
+  import Angka from "./lib/Hitung.svelte";
+  import Reset from "./lib/Reset.svelte";
 </script>
 
 <main>
@@ -16,7 +18,11 @@
   <h1>Vite + Svelte</h1>
 
   <div class="card">
-    <Counter />
+    <Angka />
+  </div>
+
+  <div class="card">
+    <Reset />
   </div>
 
   <p>
